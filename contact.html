@@ -90,7 +90,7 @@
                                 </div>
                                 <h4 class="accent-color">Give us a call</h4>
                                     <p>
-                                        We are available 9am - 7pm ET, Monday to Sat.
+                                        We are available 9am - 7pm ET, Monday to Friday.
                                     </p>
                                 <h6 class="text-color">1-647-308-6168</h6>
                             </div>
@@ -132,35 +132,12 @@
                     </div>
                     <div class="col col-xl-8 mb-3">
                         <div class="d-flex flex-column p-5 rounded-4 w-100 shadow">
-                            <div class="success_msg toast align-items-center w-100 shadow-none mb-3 border border-success rounded-pill my-4"
-                                role="alert" aria-live="assertive" aria-atomic="true">
-                                <div class="d-flex p-2">
-                                    <div class="toast-body f-18 d-flex flex-row gap-3 align-items-center text-success">
-                                        <i class="fa-solid fa-check f-36 text-success"></i>
-                                        Your Message Successfully Sent.
-                                    </div>
-                                    <button type="button"
-                                        class="me-2 m-auto bg-transparent border-0 ps-1 pe-0 text-success"
-                                        data-bs-dismiss="toast" aria-label="Close"><i
-                                            class="fa-solid fa-xmark"></i></button>
-                                </div>
-                            </div>
-                            <div class="error_msg toast align-items-center w-100 shadow-none border-danger mb-3 my-4 border rounded-pill"
-                                role="alert" aria-live="assertive" aria-atomic="true">
-                                <div class="d-flex p-2">
-                                    <div class="toast-body f-18 d-flex flex-row gap-3 align-items-center text-danger">
-                                        <i class="fa-solid fa-triangle-exclamation f-36 text-danger"></i>
-                                        Something is Wrong ! Send Form Failed.
-                                    </div>
-                                    <button type="button"
-                                        class="me-2 m-auto bg-transparent border-0 ps-1 pe-0 text-danger"
-                                        data-bs-dismiss="toast" aria-label="Close"><i
-                                            class="fa-solid fa-xmark"></i></button>
-                                </div>
-                            </div>
+
                             <form
                                 class="d-flex flex-column h-100 justify-content-center px-4 w-100 needs-validation form"
-                                novalidate>
+                                novalidate
+                                action="https://formspree.io/f/calvin@innoveerdigital.com"
+                                method="POST">
                                 <div class="mb-3">
                                     <input type="text" class="form-control py-3 px-4 rounded-3" name="name" id="name"
                                         placeholder="Name" required>
